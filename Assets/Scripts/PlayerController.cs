@@ -140,7 +140,7 @@ namespace SintLucas.JorritExamples.PlayerController
             animator.SetBool("isMoving", inputMag > inputThreshold);
 
             // feed speed for blend tree (normalize as needed)
-            animator.SetFloat("moveSpeed", inputMag * (moveSpeed / runSpeed) * animationSpeedMultiplier); // or map to 0..1 as you prefer
+            animator.SetFloat("moveSpeed", inputMag * (moveSpeed / runSpeed) * animationSpeedMultiplier);
             //Debug.Log(inputMag * (moveSpeed / runSpeed));
 
             _prevInput = input;

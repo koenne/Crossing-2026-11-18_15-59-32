@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LakeMaterial
+  m_Name: Water standard
   m_Shader: {fileID: -6465566751694194690, guid: a39adf1ede5fdf54ab736eff0464d185, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -131,7 +131,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Water_Amplitude: 0.25
-    - _Water_Depth: 3.99
+    - _Water_Depth: 3
     - _Wave_Frequency: 1
     - _Wave_Speed: 1
     - _WorkflowMode: 1
@@ -140,10 +140,10 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep_Color: {r: 0, g: 0.16102794, b: 0.6226415, a: 1}
+    - _Deep_Color: {r: 0, g: 0.14109415, b: 0.5471698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Shallow_Color: {r: 0.63740116, g: 0.9102738, b: 0.98490566, a: 1}
+    - _Shallow_Color: {r: 0.7150943, g: 0.81748235, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 0.20188677, g: 0.58396226, b: 1, a: 1}
+    - _Specular_Color: {r: 0.20943397, g: 0.58921564, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
